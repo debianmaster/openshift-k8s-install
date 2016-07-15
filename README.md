@@ -25,4 +25,11 @@ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/miniku
 ```
 
 
+### Install openshift origin (via vagrant)
+##### Install openshift cli 
+> For MAC OSX
+
+
+
+
 
