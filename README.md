@@ -1,4 +1,4 @@
-# openshift-k8s-install
+# Openshift and (kubernetes) k8s install
 Notes for Openshift Origin and k8s  installation
 
 ### Pre-requisites 
