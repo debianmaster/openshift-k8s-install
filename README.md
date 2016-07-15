@@ -3,10 +3,29 @@ Notes for Openshift Origin and k8s  installation
 
 ### Pre-requisites 
 >  Install following based on your environment.
-
-
+##### Install Virtual box
 https://www.virtualbox.org/wiki/Downloads
+##### Install Vagrant
 https://www.vagrantup.com/downloads.html
+##### Install Docker for Mac/Windows
+https://docs.docker.com/engine/installation/mac/
+
+
+##### For linux/centos
+```sh
+# tee /etc/yum.repos.d/docker.repo <<-'EOF'
+[dockerrepo]
+name=Docker Repository
+baseurl=https://yum.dockerproject.org/repo/main/centos/7/
+enabled=1
+gpgcheck=1
+gpgkey=https://yum.dockerproject.org/gpg
+EOF
+
+# yum install docker-engine
+# systemctl start docker
+```
+
 
 
 ### Install k8s (minikube)
